@@ -1,8 +1,15 @@
 class Account {
     constructor(){
-        this.abc = "helow";
+        this.abc = "hellow";
     }
 
+    getAccountDetails(){
+        return this.abc;
+    }
+
+    
 }
+
+
 
 module.exports = Account;
