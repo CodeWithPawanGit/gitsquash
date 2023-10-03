@@ -1,11 +1,12 @@
 class Account {
     constructor(){
         this.abc = "hellow";
+        this.xyz = "World";
         this.email = "itmanpawan@gmail.com"
     }
 
     getAccountDetails(){
-        return this.abc;
+        return this.abc + this.xyz;
     }
 
     getEmail(){
